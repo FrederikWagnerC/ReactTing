@@ -1,7 +1,7 @@
-export const MainComponent = () => {
+export const MainComponent = ({children}) => {
     return (
-        <div>
-            <h1>Main Component</h1>
+        <div className="reset">
+            {children}
         </div>
     );
 }

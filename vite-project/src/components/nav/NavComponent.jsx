@@ -1,8 +1,10 @@
+import styles from './NavBarStyle.module.scss';
+
 export const NavComponent = () => {
     return (
-        <nav>
+        <nav className={styles.navbar}>
             <ul>
-                <li>Home</li>
+                <li className={styles.navbarLi}>Home</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
